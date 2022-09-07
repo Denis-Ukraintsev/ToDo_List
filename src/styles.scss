@@ -1,0 +1,20 @@
+
+$mainColor: black;
+
+
+.App {
+margin: 0 auto;
+margin-top: 50px;
+padding: 0;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 10px;
+max-width: 700px;
+min-height: 500px;
+ li {
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+ }
+}
+

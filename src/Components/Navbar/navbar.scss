@@ -1,0 +1,42 @@
+$hoverColor: #faf0e6;
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  text-decoration: 1px solid underline;
+  letter-spacing: 2px;
+
+  
+  h1 {
+    font-size: 30px;
+  }
+
+  .btn {
+    /* width: 150px; */
+    height: 30px;
+    margin: 20px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 17px;
+    letter-spacing: 2px;
+  }
+  .btn:hover {
+    background-color: $hoverColor;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 1184px) {
+  .container {
+    display: flex;
+    .btn {
+      display: flex;
+      flex-direction: initial;
+
+    }
+  }
+}

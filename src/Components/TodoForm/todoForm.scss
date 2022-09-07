@@ -1,0 +1,21 @@
+$hoverColor: #faf0e6;
+
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .taskInput {
+    width: 550px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: 0 20px;
+  }
+  .taskInput:hover {
+    border-bottom: 1px solid $hoverColor;
+    background-color: $hoverColor;
+    border-radius: 8px;
+  }
+}

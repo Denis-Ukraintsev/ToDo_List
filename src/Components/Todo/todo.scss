@@ -1,0 +1,35 @@
+$hoverColor: #faf0e6;
+
+.task {
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-size: 17px;
+  letter-spacing: 2px;
+
+  img {
+    width: 30px;
+  }
+
+  button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    :hover {
+      background-color: $hoverColor;
+      border-radius: 8px;
+    }
+
+
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+}
+span{
+    width: 100%;
+    margin: 0 20px;
+}
